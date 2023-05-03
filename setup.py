@@ -8,7 +8,7 @@ setup(
     url="https://github.com/mkshing/svdiff-pytorch",
     description="Implementation of 'SVDiff: Compact Parameter Space for Diffusion Fine-Tuning'",
     install_requires=[
-    "diffusers==0.14.0",
+    "diffusers>=0.14.0",
     "accelerate",
     "torchvision",
     "safetensors",
